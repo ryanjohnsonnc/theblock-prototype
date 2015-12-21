@@ -365,6 +365,13 @@ body {
     background-color: #282828;
     width: 100%;
     text-align:center;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+
+#news-ticker .container-fluid {
+    max-width: 1160px;
+    margin: auto;
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
@@ -373,5 +380,57 @@ body {
 }
 
 
+.win-counter {
+    color: #ffbe08;
+    font-weight:700;
+    float: left;
+}
 
+span.counter {
+    font-size: 14px;
+    color: #181818;
+    transform: skew(-20deg);
+}
+
+.counter-holder {
+    	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+    background-color: #ffbe08;
+    display: inline;
+    margin-left: 5px;
+}
+.ticker-left {
+    width: 25%;
+    text-align: left;
+}
+
+.ticker-right {
+    float: left;
+    width: 25%;
+    text-align: right;
+}
+
+.ticker-middle {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+#stream, .ticker-middle .dropdown {display: inline;}
+
+#stream a, .ticker-middle .dropdown a{color: #fff; font-weight: 400; }
+
+.ticker-drop .dropdown-menu{
+    background-color: #282828;
+    color: #fff;
+    
+}
+.cp-logo {max-width: 135px; float: right;}
+.search {float: right; color: #ec4924; margin-left: 30px; font-size: 14px}
+.ticker-drop .dropdown-menu a {color: #fff; font-size: 12px;}
+.search:hover a, .search:focus a {color: #fff;}
+.search a {font-size: 14px; color: #ec4924; }
+.faded {opacity: .5;}
+.faded:hover, .faded:focus {opacity: 1;}
 
