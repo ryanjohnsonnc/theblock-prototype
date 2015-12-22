@@ -11,3 +11,11 @@ $(".dropdown").hover(
             $('b', this).toggleClass("caret caret-up");                
         });
 });
+
+$(document).ready(function(){
+    
+});
+
+$('#search-button').click(function(){
+   $('#search-container').toggle() 
+});
