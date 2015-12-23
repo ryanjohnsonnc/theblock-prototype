@@ -295,7 +295,7 @@ body {
 .full-fixed {
     width: 100%;
     height: auto;
-    max-width: 1160px;
+
     margin: auto;
     text-align: center;
 }
@@ -443,6 +443,12 @@ span.counter {
     line-height: 30px;
     top: -5px;
     position: relative;
+}
+
+#counter-number {
+    -webkit-transform: skew(25deg);
+    -moz-transform: skew(25deg);
+    -o-transform: skew(25deg);
 }
 span.tick {position: relative; top: -6px;}
 .counter-holder {    
